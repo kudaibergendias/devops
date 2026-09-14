@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  my-site:
+    image: localhost:5000/my-site:1.1
+    deploy:
+      replicas: 2
+    ports:
+      - "80:80"
